@@ -23,9 +23,8 @@ function App() {
           <FilterBtn content="Inactive" index="3" />
         </div>
         <div className='extensions-wrapper'>
-          extensions.forEach(extension => {
-            
-          });
+          {extensions.forEach(extension => {
+          })}
         </div>
       </main>
     </>
